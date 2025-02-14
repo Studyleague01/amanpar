@@ -45,12 +45,12 @@ jobs:
               try {
                   console.log('Fetching downloads.json...');
                   const downloads = await httpsGet(
-                      'https://raw.githubusercontent.com/Studyleague01/srpay/main/downloads.json'
+                      'https://raw.githubusercontent.com/Studyleague01/amanpar/refs/heads/main/downloads.json'
                   );
 
                   console.log('Fetching channel data...');
                   const channelData = await httpsGet(
-                      'https://backendmix.vercel.app/c/UCPGNioeYrJq4nyAt-DVIHZg'
+                      'https://backendmix.vercel.app/c/UCWcQCJHYOK2ZZRA2Sym0mOw'
                   );
 
                   if (channelData.status !== 'ok' || !channelData.videos) {
