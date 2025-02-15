@@ -9,7 +9,7 @@ const DOWNLOAD_DIR = path.join(__dirname, "..", "amanp");
 const DOWNLOADS_JSON = path.join(__dirname, "..", "downloads.json");
 const MAX_RETRIES = 3;
 const CHANNEL_ID = "UCWcQCJHYOK2ZZRA2Sym0mOw";
-const FILE_BASE_URL = "https://cdn.jsdelivr.net/gh/Studyleague01/amanpar@main/amanp/";
+const FILE_BASE_URL = "https://amanp.netlify.app/amanp/";
 
 // Ensure the download directory exists
 if (!fs.existsSync(DOWNLOAD_DIR)) {
